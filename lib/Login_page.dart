@@ -24,7 +24,7 @@ class LoginPage extends StatelessWidget {
     return BlocListener<LoginBloc, LoginState>(
         bloc: _bloc,
         listener: (context, state) {
-          // TODO: implement listener
+          // TODO: implement listener a
           if (state is LoginSuccessState) {
             isLoading = false;
             Navigator.push(
