@@ -78,7 +78,7 @@ class LoginPage extends StatelessWidget {
                         Row(
                           children: [
                             Container(
-                                // margin: EdgeInsets.only(left: 5, top: 30),
+                                // margin: EdgeInsets.only(left: 5, top: 30,left),
                                 child: Text(
                               "Username",
                               style: TextStyle(
