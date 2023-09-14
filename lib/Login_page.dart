@@ -78,8 +78,8 @@ class LoginPage extends StatelessWidget {
                         Row(
                           children: [
                             Container(
-                                // margin: EdgeInsets.only(left: 5, top: 30,left),
-                                child: Text(
+                              
+                                child: const Text(
                               "Username",
                               style: TextStyle(
                                   fontSize: 14,
@@ -138,7 +138,7 @@ class LoginPage extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               ElevatedButton(
-                                child: Text(
+                                child: const Text(
                                   'State Bloc',
                                   style: TextStyle(fontSize: 14.0),
                                 ),
@@ -156,12 +156,12 @@ class LoginPage extends StatelessWidget {
                                       login();
                                     },
                                     child: isLoading
-                                        ? Center(
+                                        ? const Center(
                                             child: CircularProgressIndicator(
                                               color: Colors.white,
                                             ),
                                           )
-                                        : Text('LogIn',
+                                        : const Text('LogIn',
                                             style: TextStyle(
                                               fontSize: 18,
                                             ))),
@@ -177,7 +177,7 @@ class LoginPage extends StatelessWidget {
                                 MaterialPageRoute(
                                     builder: (context) => Second()));
                           },
-                          child: Text.rich(
+                          child: const Text.rich(
                             TextSpan(
                               text: 'Don\'t have an account',
                               children: [
